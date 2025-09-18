@@ -5,7 +5,7 @@ It can process images, videos, and live webcam streams.
 
 ---
 
-## 📖 How It Works
+## How It Works
 
 1. **Detection (YOLOv8)**
    - The YOLOv8 model detects objects in a frame.
@@ -27,7 +27,7 @@ It can process images, videos, and live webcam streams.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
   
 - **src/** → Source code folder containing main logic  
   - **config.py** → Stores configuration (file paths, detection thresholds, constants)  
@@ -35,7 +35,7 @@ It can process images, videos, and live webcam streams.
   - **utils.py** → Helper functions for tasks like color detection (HSV masking), drawing boxes, etc.  
 - **requirements.txt** → Python dependencies needed to run the project  
 
-## ⚙️ Installation  
+## Installation  
 
 Clone the repository and install dependencies:  
 
@@ -76,11 +76,13 @@ python src/detect.py --source path/to/video.mp4
 
 ## Results
 
-**Image**
+**Testing on Image**
 
 <img width="186" height="203" alt="traffic light result" src="https://github.com/user-attachments/assets/1b9e5c58-10ab-49f4-a58e-dda9a2a310dc" />
 
-**Video**
 
+**Testing on Video**
+
+ [Video Results](https://github.com/Ayesha-Ahmed786/Traffic-Light-Detection-and-Recognition/blob/main/Traffic%20Light%20Detection%20and%20Recognition/results/output_video.avi)
 
 
