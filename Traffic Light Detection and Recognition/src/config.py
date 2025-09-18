@@ -1,0 +1,3 @@
+MODEL_PATH = "yolov8m.pt"
+CONFIDENCE = 0.25
+IMG_SIZE = 640
